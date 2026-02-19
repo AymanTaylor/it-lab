@@ -13,13 +13,6 @@ It provides structured asset inventory management, patch tracking, risk classifi
 **Automation:** Python (psycopg2, pandas)  
 **Backup:** pg_dump (bash script)
 
-Core components:
-
-- Relational schema for devices, users, departments, IP assignments, and maintenance logs  
-- SOC-relevant SQL queries  
-- Python scripts for asset import, risk evaluation, and report generation  
-- Database backup script  
-
 ---
 
 ## Database Schema
@@ -31,14 +24,6 @@ Main tables:
 - `devices`
 - `ip_assignments`
 - `maintenance_logs`
-
-Key features:
-
-- Foreign key relationships
-- Unique constraints on hostname and MAC address
-- IP stored using PostgreSQL `INET` type
-- Risk classification per device
-- Patch tracking via `last_patch_date`
 
 ---
 
@@ -135,3 +120,4 @@ bash backups/backup.sh
 ```
 
 Creates a date-stamped SQL dump of the database.
+
