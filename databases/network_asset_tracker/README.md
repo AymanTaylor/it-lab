@@ -56,22 +56,7 @@ host="localhost"
 
 ---
 
-## Project Structure
-
-```
-network_asset_tracker/
-├── schema.sql
-├── seed_data.sql
-├── sample_scan.csv
-├── queries/
-├── python/
-├── backups/
-└── README.md
-```
-
----
-
-## Core Features
+## Features
 
 ### Asset Inventory
 
@@ -120,4 +105,5 @@ bash backups/backup.sh
 ```
 
 Creates a date-stamped SQL dump of the database.
+
 
