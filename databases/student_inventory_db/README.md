@@ -1,4 +1,4 @@
-# Student Inventory DB Lab
+# Student Inventory DB
 
 [![MySQL](https://img.shields.io/badge/Built%20With-MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)](https://www.mysql.com/)
 [![Platform](https://img.shields.io/badge/Platform-Cross--Platform-6DB33F?style=for-the-badge\&logo=linux\&logoColor=white)](#)
@@ -176,3 +176,4 @@ source seed_data.sql;
 ## Maintainer
 
 Ayman Taylor
+
